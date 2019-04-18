@@ -1,0 +1,6 @@
+FROM debian:latest
+
+LABEL Michael Schiessl - mike@makeITyourway.de
+
+ADD stuff/very_cool.tgz /sbin/
+

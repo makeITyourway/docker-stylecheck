@@ -1,0 +1,15 @@
+FROM debian:9.4
+#FROM debian:latest
+#FROM python:3.5
+
+LABEL Michael Schiessl - mike@makeITyourway.de
+
+#ADD stuff/very_cool.tgz /sbin/
+
+#VOLUME /data
+#RUN apt update
+#Run yum -y upgrade
+
+USER mike
+
+ENTRYPOINT /my/script.sh
